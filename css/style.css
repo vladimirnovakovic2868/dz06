@@ -1,0 +1,24 @@
+img.resource-image {
+    width: 200px;
+    vertical-align: top;
+}
+
+table {
+    width: 800px;
+    display: inline-block;
+}
+
+table tr {
+    border: 1px solid;
+    vertical-align: middle;
+}
+
+table tr td:first-child {
+    font-weight: bold;
+    width: 15%;
+    vertical-align: top;
+}
+
+table tr:nth-child(even) {
+    background-color: #efefef;
+}
